@@ -10,20 +10,8 @@ class MahasiswaModel extends Model
     protected $nim = "2110817310008";
     protected $prodi = "Teknologi Informasi";
     protected $hobi = "Main Voli";
-    protected $skill = "belum ada";
+    protected $skill = "Baru Belajar Desain Web";
     protected $title = "Halaman Profil";
-
-    // public function getInfo()
-    // {
-    //     return [
-    //         $this->nama,
-    //         $this->nim,
-    //         $this->prodi,
-    //         $this->hobi,
-    //         $this->skill,
-    //         $this->title
-    //     ];
-    // }
 
     public function getNama()
     {
